@@ -1,1 +1,121 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daniel Gwon · Machine Learning Engineer</title>
+  <meta name="description" content="Daniel Gwon is a machine learning engineer working on computer vision, retrieval, and on-device inference.">
+  <link rel="canonical" href="https://dygwon.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Daniel Gwon · Machine Learning Engineer">
+  <meta property="og:description" content="Computer vision, retrieval, and on-device inference.">
+  <meta property="og:url" content="https://dygwon.github.io/">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231b1b1a'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui,sans-serif' font-size='28' font-weight='600' fill='%23fbfbf9'%3EDG%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="intro">
+    <h1>Daniel Gwon</h1>
+    <p class="role">Machine Learning Engineer</p>
+    <p class="focus">Computer vision, retrieval, and on-device inference.</p>
+    <nav class="links" aria-label="Contact">
+      <a href="https://github.com/dygwon">GitHub</a>
+      <!-- TODO: replace with your LinkedIn profile URL -->
+      <a href="https://www.linkedin.com/in/YOUR-HANDLE/">LinkedIn</a>
+      <!-- TODO: add resume.pdf to the repository root -->
+      <a href="resume.pdf">Résumé</a>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="experience">
+      <h2 id="experience">Experience</h2>
+      <div class="entries">
+        <!-- TODO: replace placeholder entries. Newest first. Lead with measurable outcomes. -->
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Role Title · Company</h3>
+            <span class="dates">20XX – Present</span>
+          </div>
+          <p>One or two lines on what you built and the result, with a number where possible.</p>
+        </article>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Role Title · Company</h3>
+            <span class="dates">20XX – 20XX</span>
+          </div>
+          <p>One or two lines on what you built and the result, with a number where possible.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="projects">
+      <h2 id="projects">Projects</h2>
+      <div class="entries">
+        <article class="entry">
+          <div class="entry-head">
+            <h3><a href="https://github.com/dygwon/Vehicle-Re-Identification">Vehicle Re-Identification</a></h3>
+          </div>
+          <p>Two-stage re-ID pipeline for the edge: a YOLOv8s detector fine-tuned on a COCO-2017 vehicle subset and a ResNet-34 embedding model fine-tuned on VeRi-776, exported to ONNX and compiled to TensorRT FP16/INT8 engines for a Jetson Orin Nano.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>PyTorch</li><li>YOLOv8</li><li>ONNX</li><li>TensorRT</li><li>Jetson</li>
+          </ul>
+          <p class="more"><a href="https://huggingface.co/collections/dgwon/vehicle-re-identification">Models on Hugging Face</a></p>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <h3><a href="https://github.com/dygwon/search">Vector Search with Milvus</a></h3>
+          </div>
+          <p>Experimental search application built on the Milvus vector database and its Go SDK.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Milvus</li><li>Go</li><li>Vector search</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <h3><a href="https://github.com/dygwon/docsearch">docsearch</a></h3>
+          </div>
+          <p>Full-text search over local documents ranked with BM25, with a preprocessing script that converts PDF collections to Markdown.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>BM25</li><li>Information retrieval</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <h3><a href="https://github.com/dygwon/rag">Local RAG</a></h3>
+            <span class="status">In progress</span>
+          </div>
+          <p>Retrieval-augmented generation over U.S. Small Business Administration guidance, combining BM25 and dense-embedding hybrid retrieval in Milvus with a locally served LLM via Ollama.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>RAG</li><li>Milvus</li><li>Ollama</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <h3><a href="https://github.com/dygwon/TensorTonic-Solutions">ML from Scratch</a></h3>
+          </div>
+          <p>Core machine learning algorithms implemented from first principles and verified on TensorTonic.</p>
+          <p class="more"><a href="https://www.tensortonic.com/profile/dygwon">TensorTonic profile</a></p>
+        </article>
+      </div>
+
+      <h3 class="subhead">Earlier work</h3>
+      <ul class="compact">
+        <li><a href="https://github.com/dygwon/Generative-Adversarial-Networks">Generative adversarial networks</a> in PyTorch</li>
+        <li><a href="https://github.com/dygwon/Viola-Jones-Facial-Detection">Face detection</a> with the Viola–Jones framework</li>
+        <li><a href="https://github.com/dygwon/Data_Science_CC_Fraud_Detection">Credit card fraud detection</a></li>
+        <li><a href="https://github.com/dygwon/NeuralNetwork-XOR">Neural network for XOR</a>, written from scratch</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Daniel Gwon</p>
+  </footer>
+</body>
+</html>
